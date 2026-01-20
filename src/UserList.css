@@ -1,0 +1,28 @@
+.user-card {
+  background: url('./assets/card.png') center/cover no-repeat;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.user-card p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.actions button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
