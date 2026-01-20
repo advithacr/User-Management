@@ -11,7 +11,7 @@ function App() {
   const [activePage, setActivePage] = useState('users');
   const [lastUpdated, setLastUpdated] = useState(null);
 
-  const [sidebarOpen, setSidebarOpen] = useState(true); // <-- sidebar toggle state
+  const [sidebarOpen, setSidebarOpen] = useState(true); 
 
   const handleSaveUser = (user) => {
     if (editingUser) {
@@ -43,9 +43,9 @@ function App() {
 
   return (
     <div className="app">
-      {/* SIDEBAR */}
+      
       <aside className={`sidebar ${sidebarOpen ? 'open' : 'collapsed'}`}>
-        {/* Menu icon toggles sidebar */}
+        
         <div className="menu-icon" onClick={() => setSidebarOpen(!sidebarOpen)}>
           ☰
         </div>
@@ -61,7 +61,7 @@ function App() {
         )}
       </aside>
 
-      {/* MAIN CONTENT */}
+      
       <main className="content">
         <h1>User Management Portal</h1>
 
@@ -143,7 +143,7 @@ function App() {
         )}
       </main>
 
-      {/* MODAL */}
+      
       {showModal && (
         <div className="modal" onClick={() => setShowModal(false)}>
           <div className="modal-box" onClick={e => e.stopPropagation()}>

@@ -61,7 +61,7 @@
   width: 420px;
 }
 
-/* DASHBOARD LAYOUT FIX */
+
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -111,7 +111,7 @@
   opacity: 0.7;
 }
 
-/* CREATE BUTTON */
+/* BUTTON */
 .create-btn {
   padding: 12px 25px;
   border-radius: 25px;
@@ -128,23 +128,23 @@
   background-color: #333;
 }
 
-/* Flex container for search + create button */
+
 .top-controls {
   display: flex;
-  justify-content: space-between; /* search left, button right */
+  justify-content: space-between; 
   align-items: center;
-  margin-bottom: 25px; /* space below */
-  gap: 20px; /* spacing between search & button */
+  margin-bottom: 25px; 
+  gap: 20px; 
 }
 
 .top-controls .search {
-  flex: 1; /* search takes full available width */
-  max-width: 500px; /* optional max width */
+  flex: 1; 
+  max-width: 500px; 
 }
 
 
 
-/* Sidebar styles */
+/* Sidebar */
 .sidebar {
   width: 260px;
   background: url('./assets/sidebar.png') center/cover no-repeat;
@@ -157,7 +157,7 @@
 }
 
 .sidebar.collapsed {
-  width: 60px;   /* collapsed width showing only ☰ */
+  width: 60px;   
   padding: 30px 10px;
 }
 
@@ -177,7 +177,7 @@
   font-weight: bold;
 }
 
-/* Content stays flex */
+
 .content {
   flex: 1;
   padding: 40px;
